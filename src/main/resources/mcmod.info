@@ -1,0 +1,16 @@
+[
+{
+  "modid": "lanultra",
+  "name": "LANUltra",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/Mirik9724/LANUltra",
+  "updateUrl": "https://github.com/Mirik9724/LANUltra/releases",
+  "authorList": ["Mirik9724"],
+  "credits": "",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
