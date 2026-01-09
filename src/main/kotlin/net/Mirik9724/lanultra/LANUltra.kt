@@ -22,8 +22,7 @@ class LANUltra {
 
     companion object {
         const val MODID: String = "lanultra"
-        const val VERSION: String = "0.1"
-        const val acceptableRemoteVersions = "*"
+        const val VERSION: String = "1.0"
     }
 
     fun onPlayerLogin(server: MinecraftServer, profile: GameProfile): GameProfile {
