@@ -1,5 +1,5 @@
 # LANUltre 
-## mod adds hybrid(License+Offline) auth in LAN game now
+## Mod adds hybrid(License+Offline) auth in LAN game now
 
 A mod for playing with a license and offline players  
 Allows licensed and unlicensed players to play simultaneously  
