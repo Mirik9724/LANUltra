@@ -1,8 +1,11 @@
-# LANUltre
+# LANUltre 
+## mod adds hybrid(License+Offline) auth in LAN game now
 
 A mod for playing with a license and offline players  
 Allows licensed and unlicensed players to play simultaneously  
 **If you don't trust players, use something like AuthMe for Forge**  
+
+Download [kotlin-stdlib:1.3.72 for correct work](https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.3.72/kotlin-stdlib-1.3.72.jar)
 
 ## DEV only
 ```$env:JAVA_HOME = "F:\Program\jdk\AmC-1.8"(Your path to jdk 8)```  

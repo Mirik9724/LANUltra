@@ -1,7 +1,10 @@
 package net.Mirik9724.lanultra
 
+import com.mojang.authlib.GameProfile
 import cpw.mods.fml.common.Mod
 import cpw.mods.fml.common.event.FMLInitializationEvent
+import net.Mirik9724.lanultra.auth.HybridAuth
+import net.minecraft.server.MinecraftServer
 import net.minecraft.server.management.ServerConfigurationManager
 
 fun log(ms: String){
@@ -23,6 +26,9 @@ class LANUltra {
         const val acceptableRemoteVersions = "*"
     }
 
+    fun onPlayerLogin(server: MinecraftServer, profile: GameProfile): GameProfile {
+        return HybridAuth.authenticatePlayer(server, profile)
+    }
 
 
 }

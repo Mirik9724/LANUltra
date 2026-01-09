@@ -11,6 +11,9 @@
   "credits": "",
   "logoFile": "logo.png",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": [
+    "required-after:Forgelin"
+  ],
+  "requiredMods": ["Forgelin@[10.13.4.1614,)"]
 }
 ]

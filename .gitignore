@@ -1,0 +1,9 @@
+build/*
+!build/libs/
+
+.gradle
+.idea
+eclipse
+
+LicenseRun
+!LicenseRun/mods
